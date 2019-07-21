@@ -134,9 +134,6 @@ text-align: center; */
 
     .Main{
         display: flex;
-        /* flex-direction: column; */
-        /* align-items: center; */
-        /* flex-wrap: wrap; */
         justify-content: space-around;
         top: 45px;
     }
@@ -145,6 +142,7 @@ text-align: center; */
         display: flex;
         justify-content: space-around;
     }
+    
     .Nav-li{
         margin: 10px 0 5px 0;
     }
@@ -163,24 +161,11 @@ text-align: center; */
     }
     
     .Izquierdo{
-        /* align-self: flex-start; */
         width:30%;
-        /* order: 1; */
     }
 
-    
-    
-
-      
-
-
-
-
-
-
-
-
-
+    .Data-containerImg{
+        width:25%;
     }
 
     .Studies-link{
@@ -190,7 +175,4 @@ text-align: center; */
         display:block;
         width: 8%;
     }
-
-
-
 }
