@@ -37,9 +37,11 @@ text-align: center; */
 .Main{
     position: absolute;
     top: 30px;
+    background-color:#1d1a1b08;
 }
 
 .Nav{
+    border-bottom: 1px solid linear-gradient(to right, red, white);
     position: fixed;
     top: 0;
     left: 0;
@@ -63,6 +65,7 @@ text-align: center; */
     font-size: .8rem;
     text-decoration: none;
 }
+
 .Nav-a img{
     width: .8rem;
 }
@@ -98,15 +101,6 @@ text-align: center; */
     display: none;
 }
 
-.Knowledge-percentage{
-    border:1px solid black;
-}
-
-.Knowledge-percentage::after{
-    content: normal;
-    border:1px solid blue;
-}
-
 .Projects-mainContainer{
     display: flex;
     flex-wrap: wrap;
@@ -125,6 +119,64 @@ text-align: center; */
 
 @media (min-width: 576px) { 
 
+    .Main{
+        display: flex;
+        /* flex-direction: column; */
+        /* align-items: center; */
+        /* flex-wrap: wrap; */
+        justify-content: space-around;
+        top: 45px;
+    }
+    
+    .Nav-ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    .Nav-li{
+        margin: 10px 0 5px 0;
+    }
+
+    .Nav-a{
+        font-size: 1.2rem;
+    }
+
+    .Nav-a img{
+        width: 1.5rem;
+    }
+
+    .Derecho{
+        /* order: 2; */
+        width: 60%;
+    }
+    
+    .Izquierdo{
+        /* align-self: flex-start; */
+        width:30%;
+        /* order: 1; */
+    }
+
+    .Data{
+        /* width: 30%; */
+        /* height: 100vh; */
+        overflow: auto;
+        /* justify-self: flex-start; */
+    }
+    .Motivating{
+        overflow:auto;
+    }
+
+      
+
+
+
+
+
+
+
+
+
+    }
+
     .Studies-link{
         font-size: 1rem;
     }
@@ -132,5 +184,7 @@ text-align: center; */
         display:block;
         width: 8%;
     }
+
+
 
 }
